@@ -1,0 +1,31 @@
+# --- Core Data Science & Math ---
+numpy           # The foundation of all matrix math
+pandas          # Data manipulation (DataFrames)
+matplotlib      # Basic plotting
+seaborn         # Prettier statistical plotting
+
+# --- Machine Learning (Classic) ---
+scikit-learn    # The gold standard for ML algorithms (Regression, SVM, etc.)
+scipy           # Scientific computing (used by scikit-learn)
+
+# --- Computer Vision ---
+opencv-python   # The main CV library (cv2)
+Pillow          # Image processing helper (PIL)
+
+# --- NLP (Natural Language Processing) ---
+nltk            # Classic NLP library (tokenization, stemming)
+spacy           # Industrial-strength NLP (faster, cleaner API)
+gensim          # Topic modeling and Word2Vec
+transformers    # Hugging Face (State-of-the-art models like BERT/GPT) - Optional but likely needed later
+
+# --- Deep Learning (The Engine for CV & NLP) ---
+# PyTorch is currently more popular for research/students.
+torch           
+torchvision     # Datasets and models for Computer Vision
+torchaudio      # Audio handling
+
+# --- Utilities ---
+tqdm            # Progress bars (Essential for long training loops)
+jupyter         # To run .ipynb notebooks
+notebook        # The classic notebook interface
+scikit-image    # Image processing algorithms

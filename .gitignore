@@ -1,0 +1,48 @@
+# --- Python Basics ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual Environments (CRITICAL) ---
+venv/
+env/
+.env
+.venv/
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# --- IDE Settings ---
+.vscode/
+.idea/
+
+# --- Big Data & Datasets ---
+# Block huge folders where you store raw data
+datasets/
+data/
+raw_data/
+
+# Block large archive files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# --- Model Weights (Huge Files) ---
+# You don't want to upload 500MB model files
+*.h5
+*.pt
+*.pth
+*.onnx
+*.pkl
+*.ckpt
+
+# --- System Junk ---
+.DS_Store
+Thumbs.db
+
+# --- Logs & Visualizations ---
+logs/
+runs/
+*.log
